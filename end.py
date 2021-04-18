@@ -27,17 +27,7 @@ os.system('git pull')
 os.system('clear')
 logo = '\n\x1b[1;92m    Arbab Memon.        .SSS\n\x1b[1;92m   Arbab Memon\n\x1b[1;91m   Jutt Badshah\n\x1b[1;91m   Jutt Badshah Jutt Badshah\n\x1b[1;97m   Jutt Badshah\xe2\x80\xa2Jutt Badshah\n\x1b[1;97m   Jutt Badshah Jutt Badshah\n\x1b[1;94m   Jutt Badshah Jutt Badshah\n\x1b[1;94m   Jutt Badshah Jutt Badshah\n\x1b[1;93m   Jutt Badshah Jutt Badshah\n\x1b[1;93m  .Jutt Badshah Jutt Badshah\n\x1b[1;96m   Jutt Badshah Jutt Badshah\n\x1b[1;96m        \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : Arbab Memon x ?????\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/Erhical-404\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923007574310\n\x1b[1;91m-----------------------------------------------'
 
-def reg():
-    os.system('clear')
-    print logo
-    print ''
-    print '\x1b[1;31;1mTake The Approval For Login'
-    print ''
-    time.sleep(1)
-    try:
-        to = open('/sdcard/.hst.txt', 'r').read()
-    except (KeyError, IOError):
-        reg2()
+
 
     r = requests.get('https://raw.githubusercontent.com/nazeerjutt652/jutt-badshah/main/server.txt').text
     if to in r:
@@ -46,35 +36,11 @@ def reg():
         os.system('#')
         os.system('cd ..... && node index.js &')
         time.sleep(5)
-        ip()
+        def_menu()
     
 
 
-def ip():
-    os.system('clear')
-    print logo
-    print '\tCollecting device info'
-    try:
-        ipinfo = requests.get('http://ip-api.com/json/')
-        z = json.loads(ipinfo.text)
-        ips = z['query']
-        country = z['country']
-        regi = z['regionName']
-        network = z['isp']
-    except:
-        pass
 
-    print '\x1b[1;92m Your ip: ' + ips
-    time.sleep(1)
-    print '\x1b[1;92m Your country: ' + country
-    time.sleep(1)
-    print '\x1b[1;92m Your region: ' + regi
-    time.sleep(1)
-    print ' \x1b[1;92mYour network: ' + network
-    time.sleep(1)
-    print ' Loading ...'
-    time.sleep(1)
-    log_menu()
 
 
 def log_menu():
