@@ -29,8 +29,7 @@ logo = '\n\x1b[1;92m    Arbab Memon.        .SSS\n\x1b[1;92m   Arbab Memon\n\x1b
 
 
 
-    r = requests.get('https://raw.githubusercontent.com/Ethical-404/PROHACK/main/server.txt').text
-    if to in r:
+    
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
         os.system('#')
