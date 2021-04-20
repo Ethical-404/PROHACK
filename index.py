@@ -6,7 +6,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 sp-404.py")
+    os.system("python2 index.py")
 os.system("clear")
 """
 try:
@@ -22,14 +22,14 @@ if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 from requests.exceptions import ConnectionError
 os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/SP-404/...../node_modules/bytes/index.js"):
+if not os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd ..... && npm install")
     os.system("cd ..... && node index.js &")
     os.system("clear")
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/SP-404/...../node_modules/bytes/index.js"):
+elif os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd ..... && node index.js &")
