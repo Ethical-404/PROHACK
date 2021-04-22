@@ -15,8 +15,8 @@ import cookielib
 import uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Mr.Arbab'
-__copyright = 'All rights reserved . Copyright  Mr.Arbab'
+#__author__ = 'Mr.Arbab'
+#__copyright = 'All rights reserved . Copyright  Mr.Arbab'
 os.system('termux-setup-storage')
  
 try:
