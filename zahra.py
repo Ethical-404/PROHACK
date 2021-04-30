@@ -44,9 +44,9 @@ logo = """
 \033[1;97m ███    ██   ██ ██   ██ ██   ██ ██   ██ 
 \033[1;97m███████ ██   ██ ██   ██ ██   ██ ██   ██ 
 \033[1;91m-----------------------------------------------
-\033[1;97m➣ Author : Zahra Zohaib
-\033[1;97m➣ Github : https://github.com/Zahra
-\033[1;97m➣ Fb Page: Jam Shahrukh Official
+\033[1;97m➣ Author : Arbab Memon
+\033[1;97m➣ Github : https://github.com/Ethical-404
+\033[1;97m➣ Fb     : ArbabMemon
 \033[1;91m-----------------------------------------------"""
 
 
@@ -63,7 +63,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/xtylo-786/ayesha/main/server').text
+    r = requests.get('https://raw.githubusercontent.com/Ethical-404/PROHACK/main/server').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -79,7 +79,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923053176060')
+        os.system('xdg-open https://wa.me/+923003023263')
         reg()
 
 
@@ -92,7 +92,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923053176060')
+    os.system('xdg-open https://wa.me/+923003023263')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -302,11 +302,11 @@ def menu():
 
 
 def menu_s():
-    ms = raw_input('\033[1;97m╰─jam➤ ')
+    ms = raw_input('\033[1;97m╰─Arbab➤ ')
     if ms == '1':
         auto_crack()
     elif ms == '2':
-        os.system('python2 .ok.py')
+        os.system('python2 ok.py')
     elif ms == '3':
         v_tok()
     elif ms == '4':
