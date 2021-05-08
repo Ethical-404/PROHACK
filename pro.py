@@ -32,7 +32,7 @@ logo = """
  \x1b[0;35m    (     )|  \   (   \ (      )(   \
  \x1b[0;36m    (     )|   \  (    )(      )(    \
  \x1b[0;31m    (     )|    \ (____)(      )(____/
- \x1b[0;33m         
+ \x1b[0;33m         BETA U CANT DECOMPILE IT 
      \x1b[101m\x1b[37;1mCODED BY ARBAB-MEMON\x1b[0m
 \033[1;97m-----------------------------------------------
 \x1b[0;35m⋟ DEVOLPER   :  ARBAB MEMON
