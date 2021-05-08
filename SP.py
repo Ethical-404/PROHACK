@@ -51,8 +51,8 @@ def reg():
     print ''
     os.system('fuser -k 5000/tcp &')
     os.system('#')
-    os.system('cd RRR && npm install')
-    os.system('cd RRR && node index.js &')
+    os.system('cd ..... && npm install')
+    os.system('cd ..... && node index.js &')
     os.system('clear')
     time.sleep(5)
     reg2()
