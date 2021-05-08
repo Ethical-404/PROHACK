@@ -351,4 +351,8 @@ def crack_select():
     print ''
     raw_input(' Press enter to back')
     crack()
-    reg()
+    
+    
+    
+reg()
+    
