@@ -37,7 +37,7 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 Sp404.py')
+    os.system('python2 index')
 
 try:
     os.mkdir('/sdcard/ids')
