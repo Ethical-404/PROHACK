@@ -83,7 +83,7 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/.Arbab-Memon.txt', 'r').read()
+        to = open('/sdcard/Arbab.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
 
