@@ -122,7 +122,7 @@ def reg2():
     print ''
     raw_input(' Press enter to go to whatsapp ')
     os.system('xdg-open https://wa.me/+923003023263')
-    sav = open('/sdcard/.Arbab-Memon.txt', 'w')
+    sav = open('/sdcard/Arbab.txt', 'w')
     sav.write(id)
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
